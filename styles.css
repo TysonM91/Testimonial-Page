@@ -1,0 +1,169 @@
+/* PAGE STYLES */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: hsl(210, 38%, 95%);
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 2px solid #cfd8dc;
+    max-width: 40px;
+}
+
+ul{
+   padding-top: .7rem;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* CONTAINER STYLE */
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 5%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* CARD STYLES */
+.one{
+    background-color: hsl(263, 56%, 51%);
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+}
+
+.one1{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.two{
+    background-color: hsl(218, 20%, 35%);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+}
+
+.two2{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.three{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+}
+
+.three3{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.four{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+}
+
+.four4{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.five{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.123);
+}
+
+.five5{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.svg{
+    position:absolute;
+    top:0;
+    left: 70%;
+    width:100%;
+    z-index: -1;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+/* TEXT STYLES */
+.name{
+    color: white;
+    font-size: 15px;
+}
+
+.role{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.bio{
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.story{
+    color: rgba(255, 255, 255, 0.452);
+    padding-top: .5rem;
+}
+
+.name2{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.role2{
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.bio2{
+    color: rgb(0, 0, 0);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    
+}
+
+.story2{
+    color: rgba(0, 0, 0, 0.452);
+    padding-top: .5rem;
+}
+
